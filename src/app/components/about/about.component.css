@@ -1,0 +1,43 @@
+* {
+  padding: 5px;
+}
+.container-fluid {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h3{
+  font-weight: 700;
+}
+.container_item {
+  width: 50%;
+}
+img {
+  border-radius: 30px;
+  box-shadow: 3px 3px 6px black;
+}
+.container_item p {
+  text-align: left;
+  padding-left: 10px;
+}
+.btn {
+  background: #0d6efd;
+}
+.btn:hover {
+  color: white;
+  background: red;
+}
+.btn_div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .container_item {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+}
