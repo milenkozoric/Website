@@ -6,9 +6,11 @@
   box-sizing: border-box;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 h3{
   font-weight: 700;
+  
 }
 .container_item {
   width: 50%;

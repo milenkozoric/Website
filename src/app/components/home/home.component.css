@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(179, 246, 112);
+  background-color:#b3f670;
 }
 
 .container-fluid {
@@ -38,7 +38,8 @@ img {
 
 /***********buton About******/
 .btn {
-  background: #0d6efd;
+  background: #48622d;
+  color: white;
 }
 .btn:hover {
   color: white;
@@ -49,6 +50,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px;
 }
 .fa {
   padding: 20px;
